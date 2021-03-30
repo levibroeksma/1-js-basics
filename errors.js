@@ -1,18 +1,18 @@
 // **** Schooltoetsen ****
 // Deze mogen herkanst worden bij een onvoldoende
-mathTest_1 = 7;
-mathTest_2 = 8;
-mathTest_3 = 8;
-mathTest_4 = 9;
+const mathTest_1 = 7;
+const mathTest_2 = 8;
+const mathTest_3 = 8;
+const mathTest_4 = 9;
 
-germanTest_1 = 5;
-germanTest_2 = 6;
+let germanTest_1 = 5;
+const germanTest_2 = 6;
 
 // **** Herkansingen ****
 console.log("Alle toetsen zitten erop.")
-console.log("Voor Duits een onvoldoende, laten we die herkansen!');
+console.log("Voor Duits een onvoldoende, laten we die herkansen!");
 console.log("Voor die toets hadden we een " + germanTest_1 + "...");
-const germanTest_1 = 5.5;
+germanTest_1 = 5.5;
 console.log("En na herkansing hebben we een voldoende: " + germanTest_1 + "!\n");
 
 // **** Gemiddelde van de schooltoetsen ****
@@ -42,7 +42,7 @@ if (mathGrade >> 6 && germanGrade >> 6) {
 } else if(mathGrade >> 8 && germanGrade >> 8) {
     console.log("Dat betekent dat ik over ben, en met hele goede cijfers ook! Yesssss");
 } else {
-    console.log('Ik ben gezakt... nog een jaar dan maar. Je moet wat tijdens zo'n pandemie.')
+    console.log('Ik ben gezakt... nog een jaar dan maar. Je moet wat tijdens zo`n pandemie.')
 }
 
 // **** Sidenote ****
